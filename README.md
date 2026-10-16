@@ -2,6 +2,11 @@
 
 Traducción al español del submod **Gender Conversation** para *Monika After Story*.
 
+## ⚙️ Requisitos
+
+Este submod *(al igual que el resto de mis traducciones de submods)* requiere **OBLIGATORIAMENTE** el siguiente helper para que las funciones de género y pronombres funcionen correctamente en español:
+- [MAS Pronombres ES](https://github.com/CofKaf/mas-pronombres-es) (Descárgalo y colócalo en tu carpeta de submods).
+
 ## 💾 Instalación
 
 Coloca la carpeta del submod en tu directorio del juego:
@@ -20,6 +25,6 @@ Si ya habías configurado tu nombre y quieres esta charla:
 Requiere el [Submod Updater Plugin](https://github.com/Booplicate/MAS-Submods-SubmodUpdaterPlugin) para recibir avisos de nuevas versiones.
 
 ## 📌 Créditos
-* **Autor original:** [DaleRuneMTS](https://github.com/DaleRuneMTS)
-* **Repositorio original:** [dale_gender_conversation](https://github.com/DaleRuneMTS/dale_gender_conversation)
-* **Traducción al español:** CofKaf
+- **Autor original:** [DaleRuneMTS](https://github.com/DaleRuneMTS)
+- **Repositorio original:** [dale_gender_conversation](https://github.com/DaleRuneMTS/dale_gender_conversation)
+- **Traducción al español:** [CofKaf](https://github.com/CofKaf)
