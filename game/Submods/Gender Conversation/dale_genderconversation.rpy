@@ -1,12 +1,12 @@
 # Register the submod
 init -990 python:
     store.mas_submod_utils.Submod(
-        author="DaleRuneMTS",
+        author="DaleRuneMTS / CofKaf",
         name="Conversación de Género",
         description="Otro derivado de Out and About, basado en una conversación posterior a la marcha del orgullo. Si eres trans, esto me permitirá apoyarte en varios aspectos de tu camino. "
         "Incluso si eres cis, hay aspectos por los que podrías querer descargar este submod de todos modos, como hablar sobre salir del clóset como LGBT+ en general. "
         "Novedades en la versión 1.1.1: un par de correcciones de errores y una nueva opción de 'Ha sido un buen día de género' para que sirva como contraparte de la opción de 'mal día de género'.",
-        version="1.1.1",
+        version="1.1.1-es1",
         dependencies={},
         settings_pane=None,
         version_updates={
@@ -15,6 +15,21 @@ init -990 python:
         "DaleRuneMTS_dale_gender_conversation_1_1_0": "DaleRuneMTS_dale_gender_conversation_1_1_1"
         }
     )
+
+
+
+
+# Para actualizar la TRADUCCIÓN. Si hay nueva actualización que no traduje, avisarme por redes (info en el txt)
+init -989 python:
+    if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
+        store.sup_utils.SubmodUpdater(
+            submod="Conversación de Género",
+            user_name="CofKaf",
+            repository_name="dale_gender_conversation_es",
+            submod_dir="/Submods/Gender Conversation",
+            extraction_depth=3
+        )
+
 
 # Register the updater
 # init -989 python:
@@ -26,21 +41,6 @@ init -990 python:
 #             submod_dir="/Submods/Gender Conversation",
 #             extraction_depth=3
 #         )
-
-
-
-
-# Para actualizar la TRADUCCIÓN. Si hay nueva actualización que no traduje, avisarme por redes (info en el txt)
-init -989 python:
-    if store.mas_submod_utils.isSubmodInstalled("Submod Updater Plugin"):
-        store.sup_utils.SubmodUpdater(
-            submod="Gender Conversation (Español)",
-            user_name="CofKaf",
-            repository_name="dale_gender_conversation_es",
-            submod_dir="/Submods/Gender Conversation",
-            extraction_depth=3
-        )
-
 
 
 
