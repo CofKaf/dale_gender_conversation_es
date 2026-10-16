@@ -24,7 +24,14 @@ Si ya habías configurado tu nombre y quieres esta charla:
 
 Requiere el [Submod Updater Plugin](https://github.com/Booplicate/MAS-Submods-SubmodUpdaterPlugin) para recibir avisos de nuevas versiones.
 
+## 💬 Reporte de Errores y Contacto
+
+Si encuentras algún error de traducción, un problema gramatical o cualquier fallo dentro del submod, ¡no dudes en comunicármelo! Podés mandarme mensaje por Discord como **cofkaf**, o en mis otras redes con mi mismo usuario (CofKaff en IG)
+
+
 ## 📌 Créditos
 - **Autor original:** [DaleRuneMTS](https://github.com/DaleRuneMTS)
 - **Repositorio original:** [dale_gender_conversation](https://github.com/DaleRuneMTS/dale_gender_conversation)
 - **Traducción al español:** [CofKaf](https://github.com/CofKaf)
+
+
