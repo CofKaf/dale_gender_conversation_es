@@ -1,12 +1,12 @@
 # Register the submod
 init -990 python:
     store.mas_submod_utils.Submod(
-        author="DaleRuneMTS / CofKaf",
+        author="DaleRuneMTS",
         name="Conversación de Género",
         description="Otro derivado de Out and About, basado en una conversación posterior a la marcha del orgullo. Si eres trans, esto me permitirá apoyarte en varios aspectos de tu camino. "
         "Incluso si eres cis, hay aspectos por los que podrías querer descargar este submod de todos modos, como hablar sobre salir del clóset como LGBT+ en general. "
         "Novedades en la versión 1.1.1: un par de correcciones de errores y una nueva opción de 'Ha sido un buen día de género' para que sirva como contraparte de la opción de 'mal día de género'.",
-        version="1.1.1-es1",
+        version="1.1.1",
         dependencies={},
         settings_pane=None,
         version_updates={
